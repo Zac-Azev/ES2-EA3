@@ -8,7 +8,7 @@ class GrandpaDAO_Encap_Mongoose extends IGrandpaDAO {
     constructor() {
         super();
         // A conexão deve ser gerenciada de forma centralizada, mas mantendo o template:
-        mongoose.connect('mongodb+srv://natabentosandrade:<db_password>@cluster0.1jxxh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+        mongoose.connect('mongodb+srv://isaac61292:isaacramos22!@azev-pc3.aaipb.mongodb.net/?retryWrites=true&w=majority&appName=azev-pc3', {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });

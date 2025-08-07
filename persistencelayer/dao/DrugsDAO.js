@@ -8,7 +8,7 @@ class DrugDAO_Encap_Mongoose extends IDrugDAO {
     constructor() {
         super();
         // A conexão deve ser gerenciada de forma centralizada, mas mantendo o template:
-        mongoose.connect('mongodb+srv://vaguetti:dwm20221@cluster0.004qy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+        mongoose.connect('mongodb+srv://isaac61292:isaacramos22!@azev-pc3.aaipb.mongodb.net/?retryWrites=true&w=majority&appName=azev-pc3', {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
